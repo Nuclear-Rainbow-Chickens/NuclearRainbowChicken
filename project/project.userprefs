@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\BirdShootScript.js">
+    <Files>
+      <File FileName="Assets\scripts\BirdMobility.js" Line="24" Column="3" />
+      <File FileName="Assets\scripts\CameraMobility.js" Line="23" Column="19" />
+      <File FileName="Assets\scripts\BirdShootScript.js" Line="36" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
