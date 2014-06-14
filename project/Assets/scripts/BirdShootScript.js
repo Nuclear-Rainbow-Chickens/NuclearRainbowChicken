@@ -15,15 +15,10 @@ function Start () {
 }
 
 function FixedUpdate () {
-	if(Input.GetMouseButton(0))
+	if(Input.GetKeyDown(KeyCode.LeftControl))
 	{
-		InvokeRepeating("fire",0,FireRate);
+		Invoke("fire",0);
 	}
-	else if(!Input.GetMouseButton(0))
-	{
-		CancelInvoke("fire");
-	}
-
 }
 function fire()
 {
@@ -32,9 +27,9 @@ function fire()
 		if(!BulletList[x].activeInHierarchy)
 		{
 			BulletList[x].SetActive(true);
-			BulletList[x].gameObject.transform.position = this.transform.position;
-			BulletList[x].gameObject.rigidbody2D.AddForce(this.transform.up * BulletSpeed);
-			break;
+			BulletList[x].gameObject.transform.position = Vector2((transform.position.x + 2) * transform.localScale.y,transform.position.y + 1);
+			BulletList[x].gameObject.rigidbody2D.AddForce(Vector2(this.transform.localScale.x * -1,0) * BulletSpeed);
+			return;
 		}
 	}
 }

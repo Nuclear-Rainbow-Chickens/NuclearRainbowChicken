@@ -2,7 +2,7 @@
 
 var speed:float = 50;
 var JumpHeight:float = 50;
-var CanJump = true;
+var CanJump = false;
 function Start () {
 
 }

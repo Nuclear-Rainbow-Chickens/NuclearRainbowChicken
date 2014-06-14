@@ -1,6 +1,7 @@
 ﻿#pragma strict
 private var bird:Transform;
-var speed:float;
+var HorizontalSpeed:float;
+var VerticalSpeed:float;
 private var DistanceX:float;
 private var DistanceY:float;
 function Start () {
@@ -10,19 +11,19 @@ function Start () {
 function Update () {
 	if(DistanceX > 12)
 	{
-		rigidbody2D.AddForce(Vector2(-1,0) * speed * DistanceX);
+		rigidbody2D.AddForce(Vector2(-1,0) * HorizontalSpeed * DistanceX);
 	}
 	if(DistanceX < 12)
 	{
-		rigidbody2D.AddForce(Vector2(1,0) * speed * DistanceX * -1);
+		rigidbody2D.AddForce(Vector2(1,0) * HorizontalSpeed * DistanceX * -1);
 	}
-	if(DistanceY > 10)
+	if(DistanceY > 8)
 	{
-		rigidbody2D.AddForce(Vector2(0,-1) * speed * DistanceY);
+		rigidbody2D.AddForce(Vector2(0,-1) * VerticalSpeed * DistanceY);
 	}
-	if(DistanceY < 10)
+	if(DistanceY < -8)
 	{
-		rigidbody2D.AddForce(Vector2(0,1) * speed * DistanceY * -1);
+		rigidbody2D.AddForce(Vector2(0,1) * VerticalSpeed * DistanceY * -1);
 	}
 	DistanceX = transform.position.x - bird.position.x;
 	DistanceY = transform.position.y - bird.position.y;

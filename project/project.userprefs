@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\BirdShootScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CameraMobility.js">
     <Files>
-      <File FileName="Assets\scripts\BirdMobility.js" Line="24" Column="3" />
-      <File FileName="Assets\scripts\CameraMobility.js" Line="23" Column="19" />
-      <File FileName="Assets\scripts\BirdShootScript.js" Line="36" Column="14" />
+      <File FileName="Assets\scripts\BulletScript.js" Line="7" Column="57" />
+      <File FileName="Assets\scripts\BirdShootScript.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\CameraMobility.js" Line="24" Column="19" />
+      <File FileName="Assets\scripts\BirdMobility.js" Line="5" Column="20" />
+      <File FileName="..\..\TowerDefense\project\Assets\script\firescript.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

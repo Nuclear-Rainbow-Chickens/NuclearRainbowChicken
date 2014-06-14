@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\BirdMobility.js" />
      <Compile Include="Assets\scripts\BirdShootScript.js" />
+     <Compile Include="Assets\scripts\BulletScript.js" />
      <Compile Include="Assets\scripts\CameraMobility.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
